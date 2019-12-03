@@ -4,16 +4,16 @@ function shout(string) {
 function whisper(string) {
   return string.toLowerCase();
 }
-function logShout(String) {
+function logShout(string) {
 
-    console.log(String)
+    console.log(string)
 }
 // function logWhisper() {
-    const spy = expect.spyOn(console, 'log').andCallThrough()
+    // const spy = expect.spyOn(console, 'log').andCallThrough()
 
-    logWhisper('HELLO')
+    // logWhisper('HELLO')
 
-    expect(spy).toHaveBeenCalledWith('hello')
+    // expect(spy).toHaveBeenCalledWith('hello')
 
-    console.log()
-  }
+    // console.log()
+  // }
