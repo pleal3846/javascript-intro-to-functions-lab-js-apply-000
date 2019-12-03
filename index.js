@@ -8,7 +8,7 @@ function logShout(String) {
 
     console.log(String)
 }
-function logWhisper() {
+// function logWhisper() {
     const spy = expect.spyOn(console, 'log').andCallThrough()
 
     logWhisper('HELLO')
