@@ -8,12 +8,6 @@ function logShout(string) {
 
     console.log(string.toUpperCase())
 }
-// function logWhisper() {
-    // const spy = expect.spyOn(console, 'log').andCallThrough()
-
-    // logWhisper('HELLO')
-
-    // expect(spy).toHaveBeenCalledWith('hello')
-
-    // console.log()
-  // }
+function logwhisper(string){
+  console.log(string.toLowerCase())
+}
